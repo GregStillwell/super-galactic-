@@ -18,10 +18,14 @@ export class Planet {
   }
 
   yearsPassed() {
-    this.mercuryPassed = Math.floor(this.passAgeCal / .24);
-    this.venusPassed = Math.floor(this.passAgeCal / .62);
-    this.marsPassed = Math.floor(this.passAgeCal / 1.88);
-    this.jupiterPassed = Math.floor(this.passAgeCal / 11.86);
+    this.mercuryPassedbirth = Math.floor(this.passAgeCal / .24);
+    this.venusPassedbirth = Math.floor(this.passAgeCal / .62);
+    this.marsPassedbirth = Math.floor(this.passAgeCal / 1.88);
+    this.jupiterPassedbirth = Math.floor(this.passAgeCal / 11.86);
+  }
+
+  yearsToPass() {
+    this.earthAgeToPass = this.futurebirth - this.earthage
   }
 
   
