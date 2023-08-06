@@ -5,18 +5,26 @@
 - Html
 - css
 - js
+- JSON
+- webpack
+- BABEL
+- NPM
+- ESLint
+- Jest
+- Node.js
 
 ### Description
-
+This project is to input an age and the years change for different planets based of there age they inputted.
 
 ### Setup/Installation Requirements
-- clone this repository: `$ git clone \`
+- clone this repository: `$ git clone \`https://github.com/GregStillwell/super-galactic-
 - open `index.html` in a web browser.
 - right click and click on 'open with live server'
-- 
+- run test
+
 
 ### Known Bugs
-- None at this time.
+- Putting results up
 
 ### Test:
 
