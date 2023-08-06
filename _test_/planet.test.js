@@ -22,10 +22,13 @@ describe('Planet', () => {
     expect(myPlanet.passAgeCal).toEqual(5)
    })
 
-   test("it should return a number of years from mercury, venus, mars, jupiter years in pastbirth", () => {
-    myPlanet.passAge();
-    expect()
-   }
+   test("it should return years from mercury, venus, mars, jupiter years in pastbirth", () => {
+    myPlanet.yearsPassed();
+    expect(myPlanet.mercuryPassed).toEqual(20)
+    expect(myPlanet.venusPassed).toEqual(8)
+    expect(myPlanet.marsPassed).toEqual(2)
+    expect(myPlanet.jupiterPassed).toEqual(0)
+   })
    
 
    
