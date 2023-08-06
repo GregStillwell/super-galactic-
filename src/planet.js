@@ -13,7 +13,10 @@ export class Planet {
     this.jupiterAge = Math.floor(this.earthage /  11.86);
   }
 
-  passAge()
-  this.passAge = this.earthage - this.mercuryAge
+  passAge() {
+    this.passAgeCal = this.earthage - this.passbirth;
+  }
+
+  
 
 }
