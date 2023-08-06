@@ -28,7 +28,12 @@ export class Planet {
     this.earthAgeToPass = this.futurebirth - this.earthage
   }
 
-  
+  yearsToPassCal() {
+    this.mercuryYearsToPass = Math.floor(this.earthAgeToPass / .24);
+    this.venusYearsToPass = Math.floor(this.earthAgeToPass / .62);
+    this.marsYearsToPass = Math.floor(this.earthAgeToPass/ 1.88);
+    this.jupiterYearsToPass = Math.floor(this.earthAgeToPass / 11.86);
+  }
 
 
 

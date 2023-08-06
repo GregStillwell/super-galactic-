@@ -35,16 +35,13 @@ describe('Planet', () => {
     expect(myPlanet.earthAgeToPass).toEqual(10)
    })
 
-   
-   
-
-   
-
-
-
-
-
-  
+   test("it should return mercury, venus, mars and jupiter years passed the birthday", () => {
+    myPlanet.yearsToPassCal();
+    expect(myPlanet.mercuryYearsToPass).toEqual(41)
+    expect(myPlanet.venusYearsToPass).toEqual(16)
+    expect(myPlanet.marsYearsToPass).toEqual(5)
+    expect(myPlanet.jupiterYearsToPass).toEqual(0)
+   })
   })
 
 
