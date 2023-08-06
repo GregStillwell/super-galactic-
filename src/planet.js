@@ -15,6 +15,7 @@ export class Planet {
 
   passAge() {
     this.passAgeCal = this.earthage - this.passbirth;
+    console.log(this.passAgeCal)
   }
 
   yearsPassed() {
@@ -34,7 +35,4 @@ export class Planet {
     this.marsYearsToPass = Math.floor(this.earthAgeToPass/ 1.88);
     this.jupiterYearsToPass = Math.floor(this.earthAgeToPass / 11.86);
   }
-
-
-
 }
