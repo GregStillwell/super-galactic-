@@ -1,5 +1,5 @@
 ### Greg Stillwell
-
+Galactic Planet 
 
 ### Technologies Used
 - Html
@@ -18,15 +18,14 @@ This project is to input an age and the years change for different planets based
 
 ### Setup/Installation Requirements
 - clone this repository: `$ git clone \`https://github.com/GregStillwell/super-galactic-
-- open `index.html` in a web browser.
-- right click and click on 'open with live server'
+- open new terminal in open tab on the top left
+- type npm install
+- type npm run start
 - run test
 
 
 ### Known Bugs
 - Putting results up
-
-### Test:
 
 
 
